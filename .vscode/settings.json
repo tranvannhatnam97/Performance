@@ -1,0 +1,16 @@
+{
+    "files.exclude": {
+        "**/.git": true,
+        "**/.svn": true,
+        "**/.hg": true,
+        "**/CVS": true,
+        "**/.DS_Store": true,
+        "**/Thumbs.db": true,
+        "sample-output.txt": true,
+        "sample-output.html": true
+    },
+    "hide-files.files": [
+        "sample-output.txt",
+        "sample-output.html"
+    ]
+}
