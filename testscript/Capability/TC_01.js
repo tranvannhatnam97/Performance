@@ -28,7 +28,7 @@ export const options = {
     //     },
     // },
     iterations: 1,
-    
+
 };
 export function setup() {
     const header = getHeader("mongtoria@gmail.com", "Cr@zyloop1");
@@ -58,7 +58,7 @@ export default function (header) {
         },
         "check data 2": (r) => {
             const data = r.json();
-            console.log("Response---" + JSON.stringify(data));
+            // console.log("Response---" + JSON.stringify(data));
             return data.id.length !== 0;
         },
     });
